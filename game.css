@@ -110,3 +110,26 @@ neighboring elements.  Necessary to avoid giving ids to the boundary divs
 	height: 150px;
 	width: 98px;
 }
+.timeContainer{
+	display: flex;
+	flex-direction: column;
+	width: 80vw;
+	margin:auto;
+}
+.allTime{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+.times label{
+	margin-left: 25%;
+	
+}
+.live{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-weight: bold;
+	
+}
